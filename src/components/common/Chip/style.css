@@ -1,0 +1,9 @@
+.Chip {
+    font-size: .7rem;
+    background: linear-gradient(to right, #6190e8, #a7bfe8);
+    color: #fff;
+    padding: .3rem .5rem;
+    border-radius: 5px;
+    width: fit-content;
+    text-transform: capitalize;
+}

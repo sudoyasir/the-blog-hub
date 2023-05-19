@@ -1,0 +1,57 @@
+.admin-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.admin-name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.tab-btn ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+}
+
+.tab-btn ul li button {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    background-color: #393646;
+    transition: all .5s;
+}
+
+.tab-btn .active {
+    background-color: #4F4557;
+    color: white;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.dash-left {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.dash-right {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.dash-right {
+    padding: 20px auto !important;
+}
+.dashboard-wrap{
+    margin: 20px auto;
+}
+.td-none{
+    text-decoration: none;
+    color: white;
+}

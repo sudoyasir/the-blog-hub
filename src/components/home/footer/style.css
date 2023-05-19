@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+.footer-wrap {
+    background-color: #f1f1f1;
+    padding: 30px 10px;
+    border-radius: 20px;
+    margin: 2rem auto;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.footer-heading {
+    font-family: 'Ms Madi', cursive;
+    font-size: 50px;
+}
+
+.footer-wrap button {
+    display: inline-block;
+}
+
+.footer-desc {
+    color: rgb(140, 140, 140);
+    font-size: 13px;
+    padding: 20px 40px;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.social-menu ul li .fab {
+    font-size: 25px;
+    line-height: 50px;
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover {
+    color: #fff;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #E4405F;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #0077b5;
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #0077b5;
+}
+.social-menu ul li:nth-child(5) a:hover{
+    background-color: #FFFC00
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+.dev-footer {
+    background-color: #000;
+    padding: 25px 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    justify-items: center;
+}
+
+.dev-footer p {
+    font-family: 'Codystar', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+.dev-footer span{
+    color: red;
+}
+
+.dev-footer a{
+    font-size: 13px;
+}

@@ -1,0 +1,11 @@
+.ql-snow .ql-stroke {
+    stroke: #fff;
+}
+
+.ql-snow .ql-picker {
+    color: #fff;
+}
+.ql-snow .ql-picker-options {
+    background-color: #fff;
+    color: black;
+}

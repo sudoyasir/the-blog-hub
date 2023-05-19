@@ -1,0 +1,32 @@
+.search-wrap{
+    background-color: #f0f0f0;
+    width: fit-content;
+    margin: 2.5rem auto 4rem auto;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.search-wrap form{
+    display: flex;
+    align-items: center;
+}
+
+.search-wrap input{
+    background-color: #f0f0f0;
+    outline: none;
+    border: none;
+}
+
+.search-wrap span{
+    padding-right: .5rem;
+    cursor: pointer;
+}
+
+.search-wrap button{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #0f52ba;
+    transition: .5s all;
+    
+}
