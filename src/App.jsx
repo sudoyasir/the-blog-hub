@@ -11,11 +11,12 @@ function App() {
       <div className='container'>
         <BrowserRouter>
           <Routes>
-            <Route path='/' Component={Home} />
-            <Route path='/blog/:id' Component={Blog} />
-            <Route path='admin/login' Component={AdminLogin} />
-            <Route path='admin/dashboard' Component={AdminDashboard} />
+            <Route path='/the-blog-hub' Component={Home} />
+            <Route path='/the-blog-hub/blog/:id' Component={Blog} />
+            <Route path='/the-blog-hub/admin/login' Component={AdminLogin} />
+            <Route path='/the-blog-hub/admin/dashboard' Component={AdminDashboard} />
           </Routes>
+
         </BrowserRouter>
       </div>
     </>

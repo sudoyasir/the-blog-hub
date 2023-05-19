@@ -34,7 +34,7 @@ export default function AdminDashboard() {
                                     <button className="nav-link w-100 text-start mb-1" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i className="fa fa-feather"></i> &nbsp; Write Blog</button>
                                 </li>
                                 <li className="nav-item" role="presentation">
-                                    <Link className="nav-link w-100 text-start td-none" to='/'><i className="fa-solid fa-home"></i> &nbsp; Goto Homepage</Link>
+                                    <Link className="nav-link w-100 text-start td-none" to='/the-blog-hub'><i className="fa-solid fa-home"></i> &nbsp; Goto Homepage</Link>
                                 </li>
                             </ul>
                         </div>

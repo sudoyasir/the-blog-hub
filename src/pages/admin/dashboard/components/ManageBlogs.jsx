@@ -6,7 +6,7 @@ export default function ManageBlogs() {
     const [blogs, setBlogs] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:3030/blogs")
+        axios.get("https://blog-site00.herokuapp.com/blogs")
             .then((res) => {
                 console.log(res.data)
                 setBlogs(res.data)

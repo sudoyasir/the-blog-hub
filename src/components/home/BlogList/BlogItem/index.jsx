@@ -25,7 +25,7 @@ export default function BlogItem({blog}) {
                     </div>
                 </div>
 
-                <Link to={`/blog/${blog._id}`} className='blogItem-link'><button className='btn btn-outline-dark rounded-circle'><i className='fa fa-arrow-right'></i></button></Link>
+                <Link to={`/the-blog-hub/blog/${blog._id}`} className='blogItem-link'><button className='btn btn-outline-dark rounded-circle'><i className='fa fa-arrow-right'></i></button></Link>
             </footer>
         </div>
     )
