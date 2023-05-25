@@ -22,7 +22,7 @@ export default function Footer() {
 
             <div className='dev-footer px-5 d-flex justify-content-between align-items-center mb-1'>
                 <p>Created with <i className="fa-solid fa-heart text-danger"></i> by Yasir Nawaz</p>
-                <Link to='/the-blog-hub/admin/login' className="btn btn-outline-light"><i className='fa fa-lock'></i> &nbsp;Admin</Link>
+                <Link to='/the-blog-hub/admin/login' className="btn btn-outline-dark"><i className='fa fa-lock'></i> &nbsp;Admin</Link>
             </div>
 
             <div className='pb-1'>

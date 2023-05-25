@@ -78,11 +78,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
 .dev-footer {
-    background-color: #000;
+    background-color: #f1f1f1;
     padding: 25px 10px;
     text-align: center;
     border-radius: 20px;
-    color: #fff;
+    color: #000;
     justify-items: center;
 }
 
